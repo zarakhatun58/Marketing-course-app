@@ -1,0 +1,116 @@
+.testimonials {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  font-family: "Poppins", sans-serif;
+}
+.testimonials::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 216, 50, 0.7);
+}
+.testimonials .title {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.testimonials .title h5 {
+  color: #eb6d2f;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: -3px;
+}
+.testimonials .title h2 {
+  color: #5a3733;
+  line-height: 1.2em;
+  font-weight: 900;
+  font-size: 41px;
+  letter-spacing: -1px;
+  margin: 0;
+}
+.testimonials .title img {
+  margin-top: -10px;
+}
+.testimonials .title p {
+  margin: 0 0 10px;
+  margin-bottom: 0;
+  color: #5a3733;
+}
+.item-card {
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+}
+.profile {
+  display: flex;
+  padding-left: 15px;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.profile img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.profile .information {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.profile .information .stars i {
+  /* padding-left: 15px; */
+  color: #ffd832;
+}
+.profile .information p {
+  font-size: 24px;
+  margin: 0px auto 0px;
+  color: #5a3733;
+  font-weight: 900;
+  line-height: 1;
+}
+.item .profile .information span {
+  color: #eb6d2f;
+  font-weight: bold;
+  margin-top: -4px;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+.paragraph p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6em;
+  display: block;
+  z-index: 2;
+  font-style: italic;
+  color: #5a3733;
+  text-align: center;
+}
+.icon {
+  text-align: center;
+}
+.icon i {
+  font-size: 15px !important;
+  color: #ffd832;
+}
+.learn-more {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}

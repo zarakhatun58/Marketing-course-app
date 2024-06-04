@@ -1,0 +1,85 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.card-img {
+  width: 40%;
+}
+.card-content {
+  width: 55%;
+}
+ol.custom-tick-list {
+  list-style: none;
+  counter-reset: list-counter;
+}
+
+ol.custom-tick-list li {
+  position: relative;
+  padding-left: 35px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ol.custom-tick-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ul-lists {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style-type: none;
+}
+.list-new {
+  width: max-content;
+  padding: 5px;
+  background-color: rgb(219, 236, 230);
+  font-size: 12px;
+}
+.buy-button {
+  background-color: #45a049 !important;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  width: 80px;
+}
+.button i {
+  color: #fff;
+  margin-left: 5px;
+}
+.button span {
+  transition: all 0.3s;
+  text-transform: capitalize;
+}
+.button:hover {
+  background-color: orange;
+}
+.button:active {
+  transform: scale(0.98);
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .card-img {
+    width: 100%;
+  }
+  .card-content {
+    width: 100%;
+  }
+  .card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
