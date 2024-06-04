@@ -19,6 +19,7 @@ const Register = () => {
     try {
       await handleRegister(email, password, name);
       alert("Registered successfully");
+      reset();
       navigate("/home");
     } catch (error) {
       alert("Registration failed. Please try again.");
